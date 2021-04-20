@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/ny.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: Pacific; /* Имя шрифта */
+    src: url("../fonts/Pacifico-Regular.ttf"); /* Путь к файлу со шрифтом */
+   }
+.header{
+    text-align: center;
+    color:white;
+    font-family:Pacific;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+.header img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 0;
+    width:80px;
+    height:70px;
+    transition: 0.5s;
+}
+.header img:hover{
+    width: 100px;
+    height: 90px;
+}
+.header h1{
+    display: inline;
+    background-color: rgba(194, 189, 184, 0.5);
+    border:2px solid white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.header h1:hover{
+    color:darkorange;
+}
+.menu {
+    text-align: center;
+    list-style: none;
+   
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.vote {
+    text-align: left;
+    color:whitesmoke;
+    font-family: Pacific;
+    font-size: 3vw;
+    font-weight: bolder;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background-color:rgba(194, 189, 184, 0.2);
+    height:70px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.vote:hover{
+    background-color:rgba(194, 189, 184, 0.8);
+}
+.menu img{
+    height:67px;
+    float:right;
+    padding-top: 10px;
+    right:0;
+    border:1px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.menu img:hover {
+    height: 60px;
+    background:darkorange;
+}
+#addtask{
+    height: 50px;
+    width: 50px;
+    transition: 0.5s;
+}
+#addtask:hover{
+    border:1px solid rgba(194, 189, 184, 0.8);
+    border-radius: 20px;
+    background-color: rgba(194, 189, 184, 0.8);
+    height: 60px;
+    width: 60px;
+}
+.btask{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.inpM{
+    color:whitesmoke;
+    background-color: rgba(194, 189, 184, 0.8);
+    display: inline-block;
+    border:2px solid rgba(194, 189, 184, 0.8);
+    border-radius: 20px;
+    height: 70px;
+    width: 440px;
+    margin-left: 20%;
+    font-family: Pacific;
+    font-size: 2vw;
+    transition: 0.5s;
+}
+.inpM:focus{
+    height: 120px;
+    width: 640px;
+}
+.addT{
+    display: inline;
+    color:whitesmoke;
+    background-color: rgba(219, 156, 18, 0.5);
+    border:2px solid rgba(255, 144, 8, 0.5);
+    border-radius: 20px;
+    height: 70px;
+    transition: 0.5s;
+    font-family: Pacific;
+    font-size: 2vw;
+}
+.addT:hover{
+   
+    height: 90px;
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .header{
+        font-size: 3vw;
+    }
+    .header h1{
+        display: block;
+    }
+    .header img{
+        height: 110px;
+        width: 110px;
+    }
+    .header img:hover{
+        height: 130px;
+        width: 130px;
+    }
+    .vote {
+        font-size: 7vw;
+    }
+
+  }
